@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+
+    <title>Diskord</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="https://diskord.rtfd.io">Documentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://pypi.org/project/diskord">Package</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/diskord-dev/diskord">GitHub</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://discord.gg/CrFAdFezKa">Discord</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="heading">
+        <div class="branding">
+            <h1>Diskord</h1>
+        </div>
+        <div class="info" align="center">
+            <p>A maintained and powerful API wrapper around Discord API written in Python.</p>
+            <p id="cmd" class="pip-command" onclick="navigator.clipboard.writeText('pip install diskord')">pip install diskord</p>
+        </div>
+
+    </div>
+    <br>
+    <div class="main-info">
+        <div class="flex-block">
+            <h1>About Diskord</h1>
+            <p>A powerful API wrapper around Discord API written in Python.</p>
+            <p>Diskord is originally a fork of <a href="https://pypi.org/project/discord.py">discord.py by Rapptz</a> which was discontinued in August 2021. The purpose of this library is to provide full coverage of Discord API with an easy to use interface to aid in bot development by abstracting away the complicated steps.
+            <br>
+            </p>
+        </div>
+        <div class="flex-block">
+            <h1>Features</h1>
+            <p>
+                <ul>
+                    <li>Modern API design using <code>async</code> and <code>await</code>.</li>
+                    <li>Proper ratelimit handling.</li>
+                    <li>Optimised in both speed and memory.</li>
+                    <li>Actively maintained.</li>
+                    <li>Implements the entire Discord API.</li>
+                    <li>Easy to use object oriented interface.</li>
+                </ul>
+            </p>
+        </div>
+        <div class="flex-block">
+            <h1>Get Started</h1>
+            <p>Ready to get started? Checkout the <a id="getStarted" href="https://diskord.rtfd.io">documentation</a> and start coding!</p>
+        </div>
+    </div>
+    <footer class="ftr">
+        <div align="center">
+            <h2>Diskord</h2>
+            <p>Copyright © Rapptz, NerdGuyAhmad 2015-present</p>
+            <a href="https://github.com/diskord-dev/diskord">
+                <i class="material-icons">code</i>
+            </a>       
+            <a href="https://pypi.org/project/diskord">
+                <i class="material-icons">download</i>
+            </a>
+            <a href="https://diskord.rtfd.io">
+                <i class="material-icons">book</i>
+            </a>
+            <a href="https://discord.gg/CrFAdFezKa">
+                <i class="material-icons">discord</i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
