@@ -1,7 +1,7 @@
 var currentTheme = 'dark';
 
 function changeTheme() {
-    body = document.body
+    body = document.getElementsByTagName('body')[0]
     mainInfo = document.getElementById('mainInfo')
     navbar = document.getElementById("_navbar")
     footer = document.getElementById("_footer")
