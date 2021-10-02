@@ -1,4 +1,4 @@
-var currentTheme = 'dark';
+var currentTheme = 'light'
 
 function changeTheme() {
     body = document.getElementsByTagName('body')[0]
