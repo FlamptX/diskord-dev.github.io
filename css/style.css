@@ -1,6 +1,22 @@
+:root,
+:root.light {
+    --body-color: black;
+    --body-bg-color: #5865f2;
+    --navbar-bg-color: #5865f2;
+    --footer-bg-color: #5865f2;
+    --main-info-bg-color: white;
+}
+:root.dark {
+    --body-color: white;
+    --body-bg-color: #111863;
+    --navbar-bg-color: #111863;
+    --footer-bg-color: #111863;
+    --main-info-bg-color: black;
+}
+
 body {
-    background-color: #5865f2;
-    color: black;
+    background-color: var(--body-bg-color);
+    color: var(--body-color);
 }
 
 .heading {
@@ -39,7 +55,7 @@ body {
 }
 
 .navbar {
-    background-color: #5865f2;
+    background-color: var(--navbar-bg-color);
     font-family: 'Poppins';   
     font-size: 16px;
 }
@@ -84,7 +100,7 @@ body {
 }
 
 .main-info {
-    background-color: white;
+    background-color: var(--main-info-bg-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -107,7 +123,7 @@ body {
 .ftr {
     display: flex;
     justify-content: center;
-    background-color: #5865f2;
+    background-color: var(--footer-bg-color);
     height: 100px;
     color: white;
 }
